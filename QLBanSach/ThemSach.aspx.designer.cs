@@ -15,6 +15,15 @@ namespace QLBanSach
     {
 
         /// <summary>
+        /// vsTongHop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary vsTongHop;
+
+        /// <summary>
         /// txtTen control.
         /// </summary>
         /// <remarks>
@@ -22,6 +31,15 @@ namespace QLBanSach
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTen;
+
+        /// <summary>
+        /// rfvTen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTen;
 
         /// <summary>
         /// txtDonGia control.
@@ -33,6 +51,24 @@ namespace QLBanSach
         protected global::System.Web.UI.WebControls.TextBox txtDonGia;
 
         /// <summary>
+        /// rfvGia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvGia;
+
+        /// <summary>
+        /// cvGia control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvGia;
+
+        /// <summary>
         /// ddlChuDe control.
         /// </summary>
         /// <remarks>
@@ -42,13 +78,22 @@ namespace QLBanSach
         protected global::System.Web.UI.WebControls.DropDownList ddlChuDe;
 
         /// <summary>
-        /// FHinh control.
+        /// Hinh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FHinh;
+        protected global::System.Web.UI.WebControls.FileUpload Hinh;
+
+        /// <summary>
+        /// rfvHinh control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvHinh;
 
         /// <summary>
         /// chkKhuyenMai control.
@@ -67,5 +112,14 @@ namespace QLBanSach
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btXuLy;
+
+        /// <summary>
+        /// lblStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblStatus;
     }
 }

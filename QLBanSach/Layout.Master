@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Quản lý bán sách</title>
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/main.css" rel="stylesheet" />
 </head>
@@ -12,19 +12,16 @@
     <form id="form1" runat="server">
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#">Nhà sách MK</a>
+            
+            <a class="navbar-brand" href="QTSach.aspx">Nhà sách MK</a>
 
-            <!-- Links -->
+            
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Liên kết 1</a>
+                    <a class="nav-link" href="QTSach.aspx">Quản lý sách</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Liên kết 2</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Liên kết 3</a>
+                    <a class="nav-link" href="ThemSach.aspx">Thêm sách</a>
                 </li>
             </ul>
         </nav>
@@ -34,8 +31,9 @@
             </asp:ContentPlaceHolder>
         </div>
 
+       
         <div class="bg-dark text-light text-center text-uppercase p-2">
-             Mã số - Họ tên sinh viên thực hiện
+             Họ tên: [Dinh Quoc Khanh] - MSSV: [24212051] - Lớp: C24A.TH
         </div>
     </form>
 </body>
